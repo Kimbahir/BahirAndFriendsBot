@@ -1,0 +1,5 @@
+pytest
+coverage
+requests
+pytest-cov
+python-tado
