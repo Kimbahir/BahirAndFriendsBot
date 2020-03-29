@@ -1,0 +1,2 @@
+# BahirAndFriendsBot
+Simple discord bot
