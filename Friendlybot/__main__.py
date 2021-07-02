@@ -56,7 +56,7 @@ async def on_message(message):
         msg = message.content.lower()
 
         if msg == "!help":
-            await message.channel.send("My commands are !hello, !bmi, !slayer, !link, !items, !weather and !users")
+            await message.channel.send("My commands are !hello, !bmi, !slayer, !firemage, !footknight, !link, !items, !weather and !users")
 
         elif message.content.startswith('!hello'):
             await message.channel.send('Hello!')
@@ -91,6 +91,9 @@ async def on_message(message):
 
         elif message.content == "!weather":
             await message.channel.send(getWeather())
+
+        elif message.content == "!jbook":
+            await message.channel.send("#JBook > FB")
 
 
 def getWeather():

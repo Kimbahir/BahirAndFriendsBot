@@ -3,3 +3,4 @@ coverage
 requests
 pytest-cov
 python-tado
+discord
